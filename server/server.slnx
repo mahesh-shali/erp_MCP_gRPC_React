@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/gateways/">
+    <Project Path="gateways/ApiGateway/ApiGateway.csproj" />
+  </Folder>
+  <Folder Name="/services/">
+    <Project Path="services/AiService.Api/AiService.Api.csproj" />
+    <Project Path="services/AiService.Grpc/AiService.Grpc.csproj" />
+    <Project Path="services/OrderService.Api/OrderService.Api.csproj" />
+    <Project Path="services/OrderService.Grpc/OrderService.Grpc.csproj" />
+    <Project Path="services/UserService.Api/UserService.Api.csproj" />
+    <Project Path="services/UserService.Grpc/UserService.Grpc.csproj" />
+  </Folder>
+  <Folder Name="/shared/">
+    <Project Path="shared/Application/Application.csproj" />
+    <Project Path="shared/Contracts/Contracts.csproj" />
+    <Project Path="shared/Domain/Domain.csproj" />
+    <Project Path="shared/Infrastructure/Infrastructure.csproj" />
+  </Folder>
+</Solution>

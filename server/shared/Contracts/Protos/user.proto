@@ -1,0 +1,16 @@
+// shared/Contracts/Protos/user.proto
+syntax = "proto3";
+
+option csharp_namespace = "Contracts.User";
+
+service UserService {
+  rpc GetUser (UserRequest) returns (UserReply);
+}
+
+message UserRequest {
+  int32 userId = 1;
+}
+
+message UserReply {
+  string name = 1;
+}
