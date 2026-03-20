@@ -1,3 +1,5 @@
+.env
+
 gateways/ApiGateway/bin
 gateways/ApiGateway/obj
 
